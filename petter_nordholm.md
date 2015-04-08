@@ -218,9 +218,9 @@ Under uppdraget lärde jag mig mycket kring utveckling av responsiva weblösning
 
 **Nyckelord:** Spring, Java, Tomcat, Hibernate, Bootstrap, Angular, Aria
 
-### Konsult - YellowFish
+### Konsult - YellowFish *2014-08-2014-10*
 
-#### Fleetmonitor *2014-08-2014-10*
+#### Fleetmonitor 
 
 Fleetmonitor tillhandahåller realtidsspårning och monitorering av frakttillgångar som t.ex. lastbilskontainers och tågkontainers.
 
@@ -232,9 +232,9 @@ Apache Lucene samt en responsive webapplication byggd i Angular och Bootstrap.
 
 **Nyckelord:** Java8, Dropwizard, Lucene, Angular, Bootstrap, Javascript, MySQL
 
-### Konsult - ABB HVC
+### Konsult - ABB HVC *2014-10-2015-*
 
-#### ONRAT *2014-10-2015-*
+#### ONRAT 
 
 ABB är en världsledande leverantör av högspänningskabelsystem och installationstjänster för alla typer av undervattenkabel och landkabel. Med mer än 140 år av kabelexpertis, har ABB en oöverträffad erfarenhet av att leverera högspänningskabelsystemet AC-och DC-lösningar.
 
