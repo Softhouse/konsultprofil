@@ -3,11 +3,11 @@ FROM dockerfile/nodejs
 
 # Install production dependencies.
 ADD package.json /app/
-ADD server /app/
+ADD server /app/server
 ADD *.js /app/
 ADD *.md /app/
 ADD *.mst /app/
-ADD html /app/
+ADD html /app/html
 
 RUN cd /app && npm install
 RUN cd /app && node generate.js
