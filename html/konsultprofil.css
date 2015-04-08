@@ -106,4 +106,8 @@ h4, p {
 	p + h3 {
 		margin-top: inherit;
 	}
+
+	div.cv img:first-of-type {
+		box-shadow: none;
+	}
 }
