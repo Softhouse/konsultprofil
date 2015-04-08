@@ -29,5 +29,7 @@ function generateCV(filename) {
 		'cv': cvData
 	});
 
+	console.log("Writing " + outputFilename);
+
 	fs.writeFileSync(outputFilename, cv, { encoding: 'UTF-8'});
 }
