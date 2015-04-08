@@ -1,0 +1,109 @@
+body {
+	font-family: arial;
+	background: url(background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.cv {
+	max-width: 768px;
+	position: relative;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+div.header {
+	vertical-align: middle;
+	display: block;
+	height: 60px;
+	font-family: calibri;
+	max-width: 768px;
+	position: relative;
+	margin-left: auto ;
+	margin-right: auto ;	
+}
+
+div.header img {
+	float: right;
+	max-height: 40px
+}
+
+div.footer {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 80%;
+}
+
+blockquote p {
+	font-family: calibri;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+/*	font-size: 18px; */
+}
+
+h2 {
+	border-bottom: solid 1px;
+	border-color: black;
+	color: rgb(0,51,86);
+/*	font-size: 14px; */
+}
+
+div.cv img:first-of-type {
+  float: right;
+  margin-bottom: 20px;
+  box-shadow: 6px 6px 6px lightgrey;
+  border: solid 1px grey;
+}
+
+table {
+	width: calc(100% - 200px);
+}
+
+thead {
+	margin-bottom: 5px;
+	border-bottom: 1px solid grey;
+	text-align: left;
+}
+
+/** ASSIGNMENT **/
+h3 {
+}
+
+p + h3 {
+	margin-top:	60px;
+}
+
+/** ASSIGNMENT YEAR **/
+h3 em {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  font-style: normal;
+}
+
+h4 {
+	font-style: italic;
+}
+
+h4, p {
+	page-break-before: avoid;
+}
+
+@media screen {
+	div.footer {
+		display: none;
+	}
+}
+
+@media print {
+	div.footer {
+	}
+	p + h3 {
+		margin-top: inherit;
+	}
+}

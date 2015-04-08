@@ -1,0 +1,27 @@
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>Konsult Profil {{real_name}}</title>
+ 		 <link href="konsultprofil.css" media="all" rel="stylesheet" />
+ 	</head>
+	<body>
+		<div class="header">
+			K o n s u l t p r o f i l
+			<img src="softhouse.png">
+		</div>
+		<div class="cv">
+			{{&cv}}
+		</div>
+		<div class="footer">
+		SOFTHOUSE CONSULTING | TEGNERGATAN 37 | S-111 61 STOCKHOLM, SWEDEN<br>
+		<br>
+		Tel: +46 (0)8 410 929 51<br>
+		<a href="www.softhouse.se">www.softhouse.se</a><br>
+		</div>
+	</body>
+	<script>
+		window.onscroll=function(e) { 
+			document.body.style.backgroundPosition=
+				"0px " + -(Math.max(document.documentElement.scrollTop, document.body.scrollTop) * 2) + "px";};
+	</script>
+</html>
