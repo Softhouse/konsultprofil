@@ -21,7 +21,7 @@ function generateCV(filename) {
 
 	var cvData = marked(fs.readFileSync(filename, { encoding: 'UTF-8'} ));
 	var template = fs.readFileSync('konsultprofil.mst', { encoding: 'UTF-8'} );
-	var outputFilename = filename.replace(/\.md/,'.html');
+	var outputFilename = "html/" + filename.replace(/\.md/,'.html');
 
 	var cv = mustache.render(template, {
 		'real_name': realName,
