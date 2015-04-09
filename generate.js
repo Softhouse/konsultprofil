@@ -2,7 +2,7 @@ var marked   = require('marked');
 var _        = require('lodash');
 var fs       = require('fs');
 var mustache = require('mustache');
-
+var cheerio  = require('cheerio');
 fs.readdir('.', getCVs);
 
 function getCVs(err, files) {
@@ -29,7 +29,22 @@ function generateCV(filename) {
 		'cv': cvData
 	});
 
-	console.log("Writing " + outputFilename);
+	var $  = cheerio.load(cv);
 
-	fs.writeFileSync(outputFilename, cv, { encoding: 'UTF-8'});
+	var tags = ["h1","h2","h3","h4"];
+
+	_.forEach(tags, function(tag) {
+		var elements = $(tag);
+		elements.before("<div class='div-" + tag + "' />");
+		var parentDivs = $('.div-' + tag);
+		parentDivs.each(function(i,parentDiv) {
+			var tag = $(parentDiv);
+			var contents = tag.nextUntil('div');
+			contents.remove();
+			tag.append(contents);
+//			tag.add(contents);
+		});
+	});
+
+	fs.writeFileSync(outputFilename, $.html(), { encoding: 'UTF-8'});
 }

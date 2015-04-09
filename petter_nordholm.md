@@ -78,7 +78,7 @@ Arbetet på nsgroup lärde mig framförallt att jobba på en international markn
 
 #### Singleton, Karlskrona, Sverige ####
 
-Singleton, med fem anställda, var vad man skulle kunna kalla för en mjukvarubyrå. Företagets affärside var att agera som kundens förlängda arm vid beställning av mjukvarutjänster. Singleton jobbade med ett flertal olika både större och mindre kunder. Bland kunderna fanns Dynapac, Compaq HP, Refco Equities, Syncom Financial Systems, Vodafone, Elektrosandberg EON, Projet, TietoEnator, Telia, KarlskromaHem, Decam, Swedish Open. 
+Singleton, med fem anställda, var vad man skulle kunna kalla för en mjukvarubyrå. Företagets affärsidé var att agera som kundens förlängda arm vid beställning av mjukvarutjänster. Singleton jobbade med ett flertal olika både större och mindre kunder. Bland kunderna fanns Dynapac, Compaq HP, Refco Equities, Syncom Financial Systems, Vodafone, Elektrosandberg EON, Projet, TietoEnator, Telia, KarlskromaHem, Decam, Swedish Open. 
 
 På singleton jobbade jag främst som konsult där jag under kortare perioder hjälpte kunder med tekniskt relaterade problem. 
 
@@ -227,7 +227,7 @@ Fleetmonitor tillhandahåller realtidsspårning och monitorering av frakttillgå
 Uppdraget gick ut på att optimera sökfuntkionerna för att uppnå näst intill realtidsresultat 
 samt sökförslag.
 
-Under uppgraget optimerades sökningarna genom att bygga en lösning för indexering med hjälp av 
+Under uppdraget optimerades sökningarna genom att bygga en lösning för indexering med hjälp av 
 Apache Lucene samt en responsive webapplication byggd i Angular och Bootstrap.
 
 **Nyckelord:** Java8, Dropwizard, Lucene, Angular, Bootstrap, Javascript, MySQL

@@ -1,7 +1,7 @@
 <html>
 	<meta charset="UTF-8">
 	<head>
-		<title>Konsult Profil {{real_name}}</title>
+		<title>Konsultprofil {{real_name}}</title>
  		 <link href="konsultprofil.css" media="all" rel="stylesheet" />
  	</head>
 	<body>

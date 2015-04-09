@@ -74,8 +74,8 @@ thead {
 h3 {
 }
 
-p + h3 {
-	margin-top:	60px;
+p:last-child {
+	margin-bottom:	60px;
 }
 
 /** ASSIGNMENT YEAR **/
@@ -96,18 +96,27 @@ h4, p {
 
 @media screen {
 	div.footer {
-		display: none;
 	}
 }
 
 @media print {
-	div.footer {
+	body {
+		font-size: 80%;
 	}
-	p + h3 {
-		margin-top: inherit;
+
+	div.footer {
+		display: none;
 	}
 
 	div.cv img:first-of-type {
 		box-shadow: none;
+	}
+
+	#professionell-erfarenhet {
+		page-break-before: always;
+	}
+
+	.div-h3 {
+		page-break-inside: avoid;
 	}
 }
